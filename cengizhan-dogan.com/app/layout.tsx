@@ -1,18 +1,21 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Geist } from "next/font/google"
+import { Exo_2 } from "next/font/google"
 import "./globals.css"
 
-const geist = Geist({
+const exo2 = Exo_2({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-geist",
+  variable: "--font-exo2",
 })
 
 export const metadata: Metadata = {
-  title: "Cengizhan Dogan - Portfolio",
+  title: "Eper Technologies",
   description: "Control systems researcher and aerospace engineer shaping resilient autonomous systems.",
   generator: "v0.app",
+  icons: {
+    icon: "/tablogo.png",
+  },
 }
 
 export default function RootLayout({
@@ -21,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${geist.variable}`}>
+    <html lang="en" className={`${exo2.variable}`}>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )

@@ -4,7 +4,7 @@ A clean, modern portfolio website built with Next.js and Tailwind CSS, featuring
 
 ## ✨ Features
 
-- **Minimalist Design** - Clean typography with Geist font and strategic use of whitespace
+- **Minimalist Design** - Clean typography with Exo 2 font and strategic use of whitespace
 - **Responsive Layout** - Mobile-first design that works on all devices
 - **Theme Toggle** - Seamless dark/light mode switching
 - **Smooth Animations** - Subtle scroll-triggered animations and hover effects
