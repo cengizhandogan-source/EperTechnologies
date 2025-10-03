@@ -21,7 +21,7 @@ export default function Home() {
 
   const stats = [
     { value: "10", label: "Team" },
-    { value: "3", label: "Publications" },
+    { value: "0", label: "Publications" },
     { value: "0M$", label: "Capital" },
     { value: "0", label: "Partners" },
   ]
@@ -192,15 +192,12 @@ export default function Home() {
 
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">FOCUS AREAS</div>
-                <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>Domestic engineering powering multi-sector UAV innovation.</p>
-                  <div className="flex flex-wrap gap-2">
-                    {sectors.map((sector) => (
-                      <span key={sector} className="px-3 py-1 text-xs border border-border rounded-full">
-                        {sector}
-                      </span>
-                    ))}
-                  </div>
+                <div className="flex flex-wrap gap-2 text-sm text-muted-foreground">
+                  {sectors.map((sector) => (
+                    <span key={sector} className="px-3 py-1 text-xs border border-border rounded-full">
+                      {sector}
+                    </span>
+                  ))}
                 </div>
               </div>
 
