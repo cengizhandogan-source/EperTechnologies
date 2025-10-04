@@ -15,84 +15,36 @@ export default function Home() {
     "courses",
     "publications",
     "blog",
-    "numbers",
     "partners",
-  ]
-
-  const stats = [
-    { value: "10", label: "Team" },
-    { value: "0", label: "Publications" },
-    { value: "0M$", label: "Capital" },
-    { value: "0", label: "Partners" },
   ]
 
   const sectors = ["Security", "Defense", "Agriculture", "Industry"]
 
   const blogPosts = [
     {
-      title: "Mission-Ready Autonomy",
+      title: "Eper Insights - October 2025",
       date: "February 3, 2025",
       excerpt:
-        "How mission planning pipelines, predictive diagnostics, and resilient comms converge to guarantee decision superiority in the field.",
-      href: "#",
-    },
-    {
-      title: "Designing Modular UAV Architectures",
-      date: "January 16, 2025",
-      excerpt:
-        "A behind-the-scenes look at our interchangeable mission modules and the engineering choices that let teams reconfigure airframes in minutes.",
-      href: "#",
-    },
-    {
-      title: "AI Co-Pilots for Critical Missions",
-      date: "December 5, 2024",
-      excerpt:
-        "From onboard edge processing to secure ground control, we detail the AI workflows that translate raw telemetry into actionable intelligence.",
-      href: "#",
+        "In our first Eper Insights newsletter we recap 100+ signups for the new drone course, lessons from a parasite drone test flight, progress on fire retardant payload trials, mothership development, and early wildfire detection concepts.",
+      href: "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D",
     },
   ]
 
   const courses = [
     {
-      title: "Autonomy Foundations",
-      format: "Hybrid · 4 weeks",
+      title: "Beginner Drone Course",
+      format: "Online · 1 hour",
       summary: "Systems thinking, flight dynamics, and control fundamentals tailored for multidisciplinary teams entering autonomous aviation.",
-      href: "#",
-    },
-    {
-      title: "Mission Software Lab",
-      format: "On-site · 3 days",
-      summary: "Hands-on coding sprints covering swarm coordination, edge AI deployment, and resilience testing in simulated contested environments.",
-      href: "#",
-    },
-    {
-      title: "Operational Integration Clinic",
-      format: "Virtual · 6 sessions",
-      summary: "Readiness playbooks for operations leads—covering compliance, safety cases, and rapid mission configuration workflows.",
-      href: "#",
+      href: "https://www.linkedin.com/events/7379602943949365249",
     },
   ]
 
   const publications = [
     {
-      title: "Autonomous Swarm Coordination",
+      title: "Drones and Wildfire Early Detection",
       date: "November 21, 2024",
       excerpt:
         "Whitepaper on distributed flight control algorithms enabling resilient swarm formations in contested environments.",
-      href: "#",
-    },
-    {
-      title: "Edge AI for Tactical ISR",
-      date: "September 9, 2024",
-      excerpt:
-        "Peer-reviewed study detailing our onboard inference stack for real-time signal exploitation and target classification.",
-      href: "#",
-    },
-    {
-      title: "Modular Airframe Certification",
-      date: "June 14, 2024",
-      excerpt:
-        "Certification roadmap showing how modular UAV architectures comply with evolving aviation safety frameworks.",
       href: "#",
     },
   ]
@@ -124,6 +76,23 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background text-foreground relative">
+      <style jsx>{`
+        .libutton {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 7px;
+          text-align: center;
+          outline: none;
+          text-decoration: none !important;
+          color: #ffffff !important;
+          width: 200px;
+          height: 32px;
+          border-radius: 16px;
+          background-color: #0a66c2;
+          font-family: "SF Pro Text", Helvetica, sans-serif;
+        }
+      `}</style>
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="px-6 sm:px-8 lg:px-16 h-16 flex items-center gap-6">
           <Link href="#hero" className="flex items-center">
@@ -347,6 +316,16 @@ export default function Home() {
               <p className="text-muted-foreground leading-relaxed">
                 Field stories, engineering deep dives, and autonomy research shaping the next wave of aerial innovation.
               </p>
+              <div>
+                <a
+                  className="libutton"
+                  href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7377626286367707137"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Subscribe on LinkedIn
+                </a>
+              </div>
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
@@ -362,6 +341,8 @@ export default function Home() {
                   <p className="mt-3 text-muted-foreground leading-relaxed">{post.excerpt}</p>
                   <Link
                     href={post.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="mt-6 inline-flex items-center gap-3 text-sm text-foreground group-hover:text-muted-foreground transition-colors duration-300"
                   >
                     <span>Read article</span>
@@ -380,31 +361,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="numbers" ref={(el) => (sectionsRef.current[6] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
-          <div className="space-y-12 sm:space-y-16">
-            <div className="space-y-6">
-              <div className="h-px w-12 bg-border" aria-hidden="true"></div>
-              <div className="text-sm text-muted-foreground font-mono">IN NUMBERS</div>
-              <h2 className="text-3xl sm:text-4xl font-light">Eper Technologies at a glance</h2>
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
-              {stats.map((item) => (
-                <div
-                  key={item.label}
-                  className="group p-6 sm:p-8 border border-border rounded-lg hover:border-muted-foreground/50 transition-all duration-500"
-                >
-                  <div className="text-4xl sm:text-5xl font-light text-foreground group-hover:text-muted-foreground transition-colors duration-300">
-                    {item.value}
-                  </div>
-                  <div className="mt-2 text-sm text-muted-foreground uppercase tracking-wide">{item.label}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
-        <section id="partners" ref={(el) => (sectionsRef.current[7] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="partners" ref={(el) => (sectionsRef.current[6] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="grid lg:grid-cols-2 gap-12 sm:gap-16">
             <div className="space-y-6 sm:space-y-8">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -516,7 +473,7 @@ export default function Home() {
               </div>
 
               <div className="flex items-center gap-4 text-sm text-muted-foreground">
-                <Link href="#" className="hover:text-foreground transition-colors duration-300">
+                <Link href="/privacy" className="hover:text-foreground transition-colors duration-300">
                   Privacy
                 </Link>
                 <Link href="mailto:info@epertechnologies.com" className="hover:text-foreground transition-colors duration-300">
