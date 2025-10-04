@@ -12,7 +12,7 @@ export default function Home() {
     "hero",
     "mission",
     "technologies",
-    "history",
+    "courses",
     "publications",
     "blog",
     "numbers",
@@ -52,21 +52,24 @@ export default function Home() {
     },
   ]
 
-  const historyMilestones = [
+  const courses = [
     {
-      year: "2018",
-      heading: "Origins",
-      description: "Eper Technologies spins out of a university research lab focused on resilient flight control and AI perception for unmanned systems.",
+      title: "Autonomy Foundations",
+      format: "Hybrid · 4 weeks",
+      summary: "Systems thinking, flight dynamics, and control fundamentals tailored for multidisciplinary teams entering autonomous aviation.",
+      href: "#",
     },
     {
-      year: "2021",
-      heading: "Mission Trials",
-      description: "First integrated swarm demonstrations with defense partners validate the modular mothership architecture in contested environments.",
+      title: "Mission Software Lab",
+      format: "On-site · 3 days",
+      summary: "Hands-on coding sprints covering swarm coordination, edge AI deployment, and resilience testing in simulated contested environments.",
+      href: "#",
     },
     {
-      year: "2024",
-      heading: "Operational Expansion",
-      description: "Commercial deployments extend into agriculture and industry while the autonomy stack earns international safety certifications.",
+      title: "Operational Integration Clinic",
+      format: "Virtual · 6 sessions",
+      summary: "Readiness playbooks for operations leads—covering compliance, safety cases, and rapid mission configuration workflows.",
+      href: "#",
     },
   ]
 
@@ -252,32 +255,47 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="history" ref={(el) => (sectionsRef.current[3] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+        <section id="courses" ref={(el) => (sectionsRef.current[3] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
-              <div className="text-sm text-muted-foreground font-mono">OUR HISTORY</div>
-              <h2 className="text-3xl sm:text-4xl font-light">From research lab explorations to operational autonomy</h2>
+              <div className="text-sm text-muted-foreground font-mono">COURSES</div>
+              <h2 className="text-3xl sm:text-4xl font-light">Upskill with the Eper curriculum</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Eper Technologies began as a small advanced flight controls team and has since evolved into a multidisciplinary autonomy company. Each chapter sharpened our focus on delivering resilient, modular systems that thrive in real operations.
+                Structured learning paths designed with operators, engineers, and mission planners in mind. We teach the tooling, testing, and integration practices that keep autonomous fleets mission-ready.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
-              {historyMilestones.map((milestone) => (
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+              {courses.map((course) => (
                 <article
-                  key={milestone.year}
-                  className="border border-border rounded-lg p-6 sm:p-8 space-y-3 transition-all duration-500 hover:border-muted-foreground/60"
+                  key={course.title}
+                  className="group border border-border rounded-lg p-6 sm:p-8 space-y-4 transition-all duration-500 hover:border-muted-foreground/60 hover:-translate-y-1"
                 >
-                  <div className="text-xs text-muted-foreground font-mono uppercase tracking-wide">{milestone.year}</div>
-                  <h3 className="text-xl font-light text-foreground">{milestone.heading}</h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed">{milestone.description}</p>
+                  <div className="text-xs text-muted-foreground font-mono uppercase tracking-wide">{course.format}</div>
+                  <h3 className="text-2xl font-light text-foreground group-hover:text-muted-foreground transition-colors duration-300">
+                    {course.title}
+                  </h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{course.summary}</p>
+                  <Link
+                    href={course.href}
+                    className="inline-flex items-center gap-3 text-sm text-foreground group-hover:text-muted-foreground transition-colors duration-300"
+                  >
+                    <span>Explore course</span>
+                    <svg
+                      className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </Link>
                 </article>
               ))}
             </div>
           </div>
         </section>
-
         <section id="publications" ref={(el) => (sectionsRef.current[4] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
@@ -480,6 +498,19 @@ export default function Home() {
                 >
                   <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M21.6 7.2a2.5 2.5 0 00-1.76-1.77C18.24 5 12 5 12 5s-6.24 0-7.84.43A2.5 2.5 0 002.4 7.2 25.9 25.9 0 002 12a25.9 25.9 0 00.4 4.8 2.5 2.5 0 001.76 1.77C5.76 19 12 19 12 19s6.24 0 7.84-.43a2.5 2.5 0 001.76-1.77A25.9 25.9 0 0022 12a25.9 25.9 0 00-.4-4.8zM10 15.5v-7l6 3.5z" />
+                  </svg>
+                </Link>
+                <Link
+                  href="https://linktr.ee/epertech"
+                  className="group inline-flex h-9 w-9 items-center justify-center rounded-full border border-border hover:border-muted-foreground/60 transition-colors duration-300"
+                  aria-label="Linktree"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8} strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M7.5 8.5L12 3l4.5 5.5" />
+                    <path d="M9 13l3-3 3 3" />
+                    <path d="M12 10v11" />
                   </svg>
                 </Link>
               </div>
