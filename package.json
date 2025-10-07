@@ -8,6 +8,6 @@
     "start": "npm --prefix cengizhan-dogan.com run start"
   },
   "dependencies": {
-    "my-v0-project": "file:cengizhan-dogan.com"
+    "my-v0-project": "file:eper-technology.com"
   }
 }

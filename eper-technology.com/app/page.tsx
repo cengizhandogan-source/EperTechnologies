@@ -25,14 +25,14 @@ export default function Home() {
       title: "Eper Insights - October 2025",
       date: "February 3, 2025",
       excerpt:
-        "In our first Eper Insights newsletter we recap 100+ signups for the new drone course, lessons from a parasite drone test flight, progress on fire retardant payload trials, mothership development, and early wildfire detection concepts.",
+        "In our first Eper Insights newsletter we recap 250+ signups for the new drone course, lessons from a parasite drone test flight, progress on fire retardant payload trials, mothership development, and early wildfire detection concepts.",
       href: "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D",
     },
   ]
 
   const courses = [
     {
-      title: "Beginner Drone Course",
+      title: "Introduction to Unmanned Aerial Vehicles",
       format: "Online · 1 hour",
       summary: "Systems thinking, flight dynamics, and control fundamentals tailored for multidisciplinary teams entering autonomous aviation.",
       href: "https://www.linkedin.com/events/7379602943949365249",
@@ -431,6 +431,17 @@ export default function Home() {
                 >
                   <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M18.244 3.514h2.963l-6.48 7.4 5.727 8.572h-4.744l-3.727-5.441-4.27 5.441H4.72l6.9-7.856L6.24 3.514h4.908l3.32 4.87z" />
+                  </svg>
+                </Link>
+                <Link
+                  href="https://www.reddit.com/r/EperTech"
+                  className="group inline-flex h-9 w-9 items-center justify-center rounded-full border border-border hover:border-muted-foreground/60 transition-colors duration-300"
+                  aria-label="Reddit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M24 12.31c0-1.23-.99-2.23-2.21-2.23-.6 0-1.15.24-1.54.64-1.48-1.05-3.48-1.72-5.68-1.81l1.16-5.44 3.77.8c.01 1.03.85 1.87 1.88 1.87 1.04 0 1.88-.84 1.88-1.88s-.84-1.88-1.88-1.88c-.74 0-1.38.43-1.68 1.05l-4.2-.89a.34.34 0 00-.47.3l-1.27 5.99c-2.25.08-4.29.76-5.81 1.85-.39-.43-.94-.69-1.54-.69-1.23 0-2.23 1-2.23 2.23 0 .91.53 1.69 1.29 2.04-.03.22-.05.45-.05.68 0 3.13 3.29 5.67 7.34 5.67s7.34-2.54 7.34-5.67c0-.22-.02-.45-.05-.66.76-.36 1.28-1.15 1.28-2.06zm-14.5 1.99c0-.88.71-1.59 1.59-1.59s1.59.71 1.59 1.59-.71 1.59-1.59 1.59-1.59-.71-1.59-1.59zm8.73 3.53c-.9.9-2.7.98-3.22.98-.52 0-2.31-.08-3.22-.98a.3.3 0 01.43-.43c.62.62 1.93.83 2.78.83.85 0 2.16-.21 2.78-.83a.3.3 0 01.43.43zm-.07-1.94c-.88 0-1.59-.71-1.59-1.59s.71-1.59 1.59-1.59 1.59.71 1.59 1.59-.71 1.59-1.59 1.59z" />
                   </svg>
                 </Link>
                 <Link
