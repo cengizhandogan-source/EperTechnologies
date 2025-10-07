@@ -2,10 +2,10 @@
   "name": "cengizhan-dogan-com",
   "private": true,
   "scripts": {
-    "dev": "npm --prefix cengizhan-dogan.com run dev",
-    "build": "npm --prefix cengizhan-dogan.com run build",
-    "lint": "npm --prefix cengizhan-dogan.com run lint",
-    "start": "npm --prefix cengizhan-dogan.com run start"
+    "dev": "npm --prefix eper-technology.com run dev",
+    "build": "npm --prefix eper-technology.com run build",
+    "lint": "npm --prefix eper-technology.com run lint",
+    "start": "npm --prefix eper-technology.com run start"
   },
   "dependencies": {
     "my-v0-project": "file:eper-technology.com"
