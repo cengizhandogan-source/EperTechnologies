@@ -21,7 +21,7 @@ export default function Home() {
     "contact",
   ]
 
-  const sectors = ["Security", "Defense", "Agriculture", "Industry"]
+  const sectors = ["Disaster Management", "Industrial", "Defense", "Agriculture"]
 
   const teamMembers = [
     {
@@ -470,13 +470,6 @@ export default function Home() {
             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
               Tell us about the missions you need to enable. We assemble dedicated teams that can integrate with your existing operations and deliver rapidly deployable autonomy.
             </p>
-            <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
-              {sectors.map((sector) => (
-                <span key={sector} className="px-3 py-1 border border-border rounded-full">
-                  {sector}
-                </span>
-              ))}
-            </div>
             <Link
               href="mailto:info@epertechnologies.com"
               className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
