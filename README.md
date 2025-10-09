@@ -1,49 +1,46 @@
-# Minimalist Portfolio Website
+# Eper Technologies Website
 
-A clean, modern portfolio website built with Next.js and Tailwind CSS, featuring smooth animations and dark/light theme support.
+A Next.js 15 marketing site for Eper Technologies that highlights mission focus, sector partnerships, and contact information with a dark, modern visual language.
 
 ## ✨ Features
 
-- **Minimalist Design** - Clean typography with Exo 2 font and strategic use of whitespace
-- **Responsive Layout** - Mobile-first design that works on all devices
-- **Theme Toggle** - Seamless dark/light mode switching
-- **Smooth Animations** - Subtle scroll-triggered animations and hover effects
-- **Modern Stack** - Built with Next.js 15, TypeScript, and Tailwind CSS
+- **Modern UI** – Tailwind CSS-driven layout with Exo 2 typography and subtle motion.
+- **Section-Based Navigation** – Smooth scrolling hero, mission, technology, publications, blog, partnerships, and contact sections.
+- **Responsive Design** – Mobile-first principles to ensure the site scales across devices.
+- **Dark Mode Styling** – Opinionated dark theme enabled by default for a cohesive brand presentation.
+- **Ready for Deployment** – Verified builds for Vercel using the latest React 19 and Next.js 15 stack.
 
-## 🚀 Built With
+## 🚀 Tech Stack
 
-- [Next.js](https://nextjs.org/) - React framework
-- [TypeScript](https://www.typescriptlang.org/) - Type safety
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [v0.dev](https://v0.dev/) - AI-powered development
+- [Next.js 15](https://nextjs.org/) for the application framework.
+- [React 19](https://react.dev/) with the App Router.
+- [TypeScript](https://www.typescriptlang.org/) for type safety.
+- [Tailwind CSS](https://tailwindcss.com/) and [PostCSS](https://postcss.org/) for styling.
+- [Radix UI](https://www.radix-ui.com/) primitives and related packages for accessible components.
 
 ## 📦 Getting Started
 
-\`\`\`bash
+```bash
 # Clone the repository
-git clone https://github.com/felixmacaspac/v0-minimalist-portfolio.git
+git clone https://github.com/cengizhandogan-source/EperTechnologies.git
+cd EperTechnologies
 
 # Install dependencies
 npm install
 
-# Run development server
+# Run the development server
 npm run dev
-\`\`\`
+```
 
-Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site locally.
 
-## 🎨 Customization
+## 🛠️ Available Scripts
 
-The portfolio is designed to be easily customizable:
-
-- Update personal information in `app/page.tsx`
-- Modify colors and styling in `app/globals.css`
-- Add or remove sections as needed
+- `npm run dev` – Start the local development server.
+- `npm run build` – Create an optimized production build.
+- `npm run start` – Serve the production build.
+- `npm run lint` – Run Next.js lint checks.
 
 ## 📄 License
 
-Open source and available under the [MIT License](LICENSE).
-
----
-
-**Built with ❤️ using [v0.dev](https://v0.dev) by Felix Macaspac**
+This project is provided for internal Eper Technologies use. Update this section if you intend to publish under a specific license.
