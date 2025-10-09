@@ -16,6 +16,7 @@ export default function Home() {
     "publications",
     "blog",
     "partners",
+    "contact",
   ]
 
   const sectors = ["Security", "Defense", "Agriculture", "Industry"]
@@ -88,9 +89,9 @@ export default function Home() {
           color: #ffffff !important;
           width: 200px;
           height: 32px;
-          border-radius: 16px;
+          border-radius: 12px;
           background-color: #0a66c2;
-          font-family: "SF Pro Text", Helvetica, sans-serif;
+          font-family: "Exo 2", "Exo2", Helvetica, sans-serif;
         }
       `}</style>
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -362,43 +363,45 @@ export default function Home() {
         </section>
 
         <section id="partners" ref={(el) => (sectionsRef.current[6] = el)} className="py-20 sm:py-32 opacity-0">
-          <div className="grid lg:grid-cols-2 gap-12 sm:gap-16">
-            <div className="space-y-6 sm:space-y-8">
-              <div className="h-px w-12 bg-border" aria-hidden="true"></div>
-              <div className="text-sm text-muted-foreground font-mono">SECTOR PARTNERSHIPS</div>
-              <h2 className="text-3xl sm:text-4xl font-light">Our business partners</h2>
-              <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                We are just at the beginning, but our goal is ambitious. As Eper Technologies, we want to grow with innovative and visionary partners in diverse sectors—primarily security, defense, agriculture, and industry. If you also want to shape the future of autonomous systems together and become a partner in a high-impact technology, let’s build this journey together.
-              </p>
-            </div>
+          <div className="space-y-6 sm:space-y-8 max-w-3xl">
+            <div className="h-px w-12 bg-border" aria-hidden="true"></div>
+            <div className="text-sm text-muted-foreground font-mono">SECTOR PARTNERSHIPS</div>
+            <h2 className="text-3xl sm:text-4xl font-light">Partners</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
+              We are just at the beginning, but our goal is ambitious. As Eper Technologies, we want to grow with innovative and visionary partners in diverse sectors—primarily security, defense, agriculture, and industry. If you also want to shape the future of autonomous systems together and become a partner in a high-impact technology, let’s build this journey together.
+            </p>
+          </div>
+        </section>
 
-            <div className="space-y-6 sm:space-y-8">
-              <div className="text-sm text-muted-foreground font-mono">START A CONVERSATION</div>
-              <p className="text-muted-foreground leading-relaxed">
-                Tell us about the missions you need to enable. We assemble dedicated teams that can integrate with your existing operations and deliver rapidly deployable autonomy.
-              </p>
-              <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
-                {sectors.map((sector) => (
-                  <span key={sector} className="px-3 py-1 border border-border rounded-full">
-                    {sector}
-                  </span>
-                ))}
-              </div>
-              <Link
-                href="mailto:info@epertechnologies.com"
-                className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
-              >
-                <span className="text-base sm:text-lg">info@epertechnologies.com</span>
-                <svg
-                  className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Link>
+        <section id="contact" ref={(el) => (sectionsRef.current[7] = el)} className="py-20 sm:py-32 opacity-0">
+          <div className="space-y-6 sm:space-y-8">
+            <div className="h-px w-12 bg-border" aria-hidden="true"></div>
+            <div className="text-sm text-muted-foreground font-mono uppercase tracking-wide">START A CONVERSATION</div>
+            <h2 className="text-3xl sm:text-4xl font-light">Contact</h2>
+            <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
+              Tell us about the missions you need to enable. We assemble dedicated teams that can integrate with your existing operations and deliver rapidly deployable autonomy.
+            </p>
+            <div className="flex flex-wrap gap-3 text-sm text-muted-foreground">
+              {sectors.map((sector) => (
+                <span key={sector} className="px-3 py-1 border border-border rounded-full">
+                  {sector}
+                </span>
+              ))}
             </div>
+            <Link
+              href="mailto:info@epertechnologies.com"
+              className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
+            >
+              <span className="text-base sm:text-lg">info@epertechnologies.com</span>
+              <svg
+                className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
           </div>
         </section>
 
