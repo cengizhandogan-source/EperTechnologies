@@ -21,6 +21,19 @@ export default function Home() {
 
   const sectors = ["Security", "Defense", "Agriculture", "Industry"]
 
+  const technologyPrograms = [
+    {
+      title: "MEDUSA",
+      description:
+        "Modular swarm architecture that synchronizes mothership and parasite drones with low-latency mesh networking for contested environments.",
+    },
+    {
+      title: "Kartal",
+      description:
+        "Long-endurance autonomous airframe optimized for border surveillance and rapid disaster assessment with adaptive sensor payloads.",
+    },
+  ]
+
   const blogPosts = [
     {
       title: "Eper Insights - October 2025",
@@ -222,6 +235,17 @@ export default function Home() {
               <p className="text-muted-foreground leading-relaxed">
                 Each sub-UAV can be customized with sensors and software integrations tailored to the mission type, providing maximum flexibility and effectiveness in the field.
               </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+              {technologyPrograms.map((program) => (
+                <article
+                  key={program.title}
+                  className="border border-border rounded-xl p-6 sm:p-8 transition-all duration-500 hover:border-muted-foreground/60 hover:-translate-y-1"
+                >
+                  <h3 className="text-2xl font-light text-foreground">{program.title}</h3>
+                  <p className="mt-4 text-sm text-muted-foreground leading-relaxed">{program.description}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
@@ -486,12 +510,25 @@ export default function Home() {
                 </Link>
               </div>
 
-              <div className="flex items-center gap-4 text-sm text-muted-foreground">
+              <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
                 <Link href="/privacy" className="hover:text-foreground transition-colors duration-300">
                   Privacy
                 </Link>
                 <Link href="mailto:info@epertechnologies.com" className="hover:text-foreground transition-colors duration-300">
                   Contact
+                </Link>
+                <Link
+                  href="/Eper%20Teknoloji_Kurumsal_Kimlik.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm text-foreground hover:border-muted-foreground/60 hover:text-muted-foreground transition-colors duration-300"
+                >
+                  Brand Guidelines
+                  <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                    <path d="M14 3h7v7" />
+                    <path d="M10 14 21 3" />
+                    <path d="M5 12v9h14" />
+                  </svg>
                 </Link>
               </div>
             </div>
