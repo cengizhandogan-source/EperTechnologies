@@ -15,11 +15,26 @@ export default function Home() {
     "courses",
     "publications",
     "blog",
+    "team",
+    "careers",
     "partners",
     "contact",
   ]
 
   const sectors = ["Security", "Defense", "Agriculture", "Industry"]
+
+  const teamMembers = [
+    {
+      name: "Cengizhan Doğan",
+      role: "Co-Founder",
+      focus: "Guides vision, strategy, and mission-driven partnerships for autonomous air systems.",
+    },
+    {
+      name: "Oğuzhan Erdoğan",
+      role: "Co-Founder & Chief Product Officer",
+      focus: "Leads product strategy and integration, aligning operator feedback with rapid engineering execution.",
+    },
+  ]
 
   const technologyPrograms = [
     {
@@ -386,7 +401,57 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="partners" ref={(el) => (sectionsRef.current[6] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="team" ref={(el) => (sectionsRef.current[6] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+          <div className="space-y-12 sm:space-y-16">
+            <div className="space-y-6 max-w-3xl">
+              <div className="h-px w-12 bg-border" aria-hidden="true"></div>
+              <div className="text-sm text-muted-foreground font-mono">TEAM</div>
+              <h2 className="text-3xl sm:text-4xl font-light">Leadership rooted in autonomy and mission success</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                A multidisciplinary group of engineers and operators translating operational needs into deployable autonomy. We pair aerospace rigor with rapid iteration to keep missions ahead of demand.
+              </p>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+              {teamMembers.map((member) => (
+                <article
+                  key={member.name}
+                  className="border border-border rounded-xl p-6 sm:p-8 transition-all duration-500 hover:border-muted-foreground/60 hover:-translate-y-1"
+                >
+                  <h3 className="text-2xl font-light text-foreground">{member.name}</h3>
+                  <div className="mt-2 text-xs text-muted-foreground font-mono uppercase tracking-wide">{member.role}</div>
+                  <p className="mt-4 text-sm text-muted-foreground leading-relaxed">{member.focus}</p>
+                </article>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="careers" ref={(el) => (sectionsRef.current[7] = el)} className="py-20 sm:py-32 opacity-0">
+          <div className="space-y-12 sm:space-y-16">
+            <div className="space-y-6 max-w-3xl">
+              <div className="h-px w-12 bg-border" aria-hidden="true"></div>
+              <div className="text-sm text-muted-foreground font-mono">CAREERS</div>
+              <h2 className="text-3xl sm:text-4xl font-light">Build the future of autonomous air operations with us</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                We hire mission-driven engineers, operators, and product leaders who thrive on translating complex requirements into fieldable capability. If you are ready to accelerate autonomy for critical sectors, we want to hear from you.
+              </p>
+            </div>
+            <Link
+              href="https://www.linkedin.com/company/epertech/jobs"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-3 rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground hover:border-muted-foreground/60 hover:text-muted-foreground transition-colors duration-300"
+            >
+              See open positions
+              <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                <path d="M17 8l4 4-4 4" />
+                <path d="M3 12h18" />
+              </svg>
+            </Link>
+          </div>
+        </section>
+
+        <section id="partners" ref={(el) => (sectionsRef.current[8] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="space-y-6 sm:space-y-8 max-w-3xl">
             <div className="h-px w-12 bg-border" aria-hidden="true"></div>
             <div className="text-sm text-muted-foreground font-mono">SECTOR PARTNERSHIPS</div>
@@ -397,7 +462,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" ref={(el) => (sectionsRef.current[7] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="contact" ref={(el) => (sectionsRef.current[9] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="space-y-6 sm:space-y-8">
             <div className="h-px w-12 bg-border" aria-hidden="true"></div>
             <div className="text-sm text-muted-foreground font-mono uppercase tracking-wide">START A CONVERSATION</div>
