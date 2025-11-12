@@ -51,7 +51,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-light">Your Choices</h2>
           <p className="text-muted-foreground">
             You may request access to, correction of, or deletion of your personal information by contacting
-            us at info@epertechnologies.com. You can also unsubscribe from marketing communications by
+            us at info@eperteknoloji.com. You can also unsubscribe from marketing communications by
             following the instructions included in those messages.
           </p>
         </section>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
           <h2 className="text-2xl font-light">Contact Us</h2>
           <p className="text-muted-foreground">
             If you have questions about this Privacy Policy or our data practices, please contact us at
-            info@epertechnologies.com.
+            info@eperteknoloji.com.
           </p>
         </section>
 

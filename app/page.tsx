@@ -43,16 +43,23 @@ export default function Home() {
         "Modular swarm architecture that synchronizes mothership and parasite drones with low-latency mesh networking for contested environments.",
     },
     {
-      title: "Kartal",
+      title: "OSKİ",
       description:
-        "Long-endurance autonomous airframe optimized for border surveillance and rapid disaster assessment with adaptive sensor payloads.",
+        "Modular medium sized UAV. Carries design similarities with MEDUSA but without the parasite UAVs and increased control authority. Most suitable for medium ranged missions.",
     },
   ]
 
   const blogPosts = [
     {
+      title: "Eper Insights - November 2025",
+      date: "",
+      excerpt:
+        "Highlights include new UAV system tests, modular airframe redesign work, fire-retardant deployment progress, and the research roadmap guiding next-quarter initiatives. Dive deeper to see how these threads shape our upcoming releases.",
+      href: "https://www.linkedin.com/pulse/eper-insights-november-2025-epertech-69xbf/?trackingId=ePKcRRkjSHKCS35ZlU%2BXNg%3D%3D",
+    },
+    {
       title: "Eper Insights - October 2025",
-      date: "February 3, 2025",
+      date: "",
       excerpt:
         "In our first Eper Insights newsletter we recap 250+ signups for the new drone course, lessons from a parasite drone test flight, progress on fire retardant payload trials, mothership development, and early wildfire detection concepts.",
       href: "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D",
@@ -205,10 +212,10 @@ export default function Home() {
               <div className="space-y-4">
                 <div className="text-sm text-muted-foreground font-mono">CONNECT</div>
                 <Link
-                  href="mailto:info@epertechnologies.com"
+                  href="mailto:info@eperteknoloji.com"
                   className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
                 >
-                  <span className="text-base sm:text-lg">info@epertechnologies.com</span>
+                  <span className="text-base sm:text-lg">info@eperteknoloji.com</span>
                   <svg
                     className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                     fill="none"
@@ -245,10 +252,7 @@ export default function Home() {
               <div className="text-sm text-muted-foreground font-mono">TECHNOLOGIES</div>
               <h2 className="text-3xl sm:text-4xl font-light">We deliver innovative solutions. We shape the future.</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Next-generation modular UAV architecture powers our system beyond fixed mission profiles. The main carrier UAV (mothership) can carry, release, or retrieve different numbers and types of parasite drones depending on mission needs. This architecture allows a single system to take on multi-role tasks in reconnaissance, attack, jamming, disaster response, and more.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Each sub-UAV can be customized with sensors and software integrations tailored to the mission type, providing maximum flexibility and effectiveness in the field.
+                Our autonomy stack combines MEDUSA motherships, OSKİ-class platforms, and configurable parasite drones so payloads, guidance modes, and software can be reconfigured for any mission in minutes. Layered AI control, resilient comms, and mission-specific sensor pods let the same family of systems cover defense, industrial, and disaster-response profiles without fielding new airframes.
               </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
@@ -471,10 +475,10 @@ export default function Home() {
               Tell us about the missions you need to enable. We assemble dedicated teams that can integrate with your existing operations and deliver rapidly deployable autonomy.
             </p>
             <Link
-              href="mailto:info@epertechnologies.com"
+              href="mailto:info@eperteknoloji.com"
               className="group inline-flex items-center gap-3 text-foreground hover:text-muted-foreground transition-colors duration-300"
             >
-              <span className="text-base sm:text-lg">info@epertechnologies.com</span>
+              <span className="text-base sm:text-lg">info@eperteknoloji.com</span>
               <svg
                 className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
                 fill="none"
@@ -572,7 +576,7 @@ export default function Home() {
                 <Link href="/privacy" className="hover:text-foreground transition-colors duration-300">
                   Privacy
                 </Link>
-                <Link href="mailto:info@epertechnologies.com" className="hover:text-foreground transition-colors duration-300">
+                <Link href="mailto:info@eperteknoloji.com" className="hover:text-foreground transition-colors duration-300">
                   Contact
                 </Link>
                 <Link
