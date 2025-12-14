@@ -51,6 +51,13 @@ export default function Home() {
 
   const blogPosts = [
     {
+      title: "Eper Insights - December 2025",
+      date: "",
+      excerpt:
+        "Moving into a new office...",
+      href: "https://www.linkedin.com/pulse/eper-insights-december-2025-epertech-ud78f/?trackingId=qb4qsvN3Q2io8E6FcrCFIA%3D%3D",
+    },
+    {
       title: "Eper Insights - November 2025",
       date: "",
       excerpt:
@@ -512,7 +519,7 @@ export default function Home() {
                   </svg>
                 </Link>
                 <Link
-                  href="#"
+                  href="https://x.com/eperteknoloji"
                   className="group inline-flex h-9 w-9 items-center justify-center rounded-full border border-border hover:border-muted-foreground/60 transition-colors duration-300"
                   aria-label="X"
                   target="_blank"
