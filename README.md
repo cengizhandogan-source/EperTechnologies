@@ -1,6 +1,6 @@
 # Eper Technologies Website
 
-A Next.js 15 marketing site for Eper Technologies that highlights mission focus, sector partnerships, and contact information with a dark, modern visual language.
+A Next.js 15 site for Eper Technologies that highlights mission focus, sector partnerships, and contact information with a dark, modern visual language.
 
 ## ✨ Features
 

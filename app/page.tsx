@@ -36,6 +36,19 @@ export default function Home() {
     },
   ]
 
+  const positions = [
+    {
+      title: "Business Development Intern",
+      type: "Internship",
+      description: "Drive growth through strategic partnerships and market development in autonomous systems.",
+    },
+    {
+      title: "Software Engineering Intern",
+      type: "Internship",
+      description: "Develop autonomous flight control algorithms and software for next-generation UAV platforms.",
+    },
+  ]
+
   const technologyPrograms = [
     {
       title: "MEDUSA",
@@ -51,24 +64,31 @@ export default function Home() {
 
   const blogPosts = [
     {
+      title: "Eper Insights - January 2026",
+      date: "",
+      excerpt:
+        "Settling into our new office while advancing MEDUSA's first prototype manufacturing across airframe integration, ground station development, and autonomy software. Our YouTube series exceeded 400,000 views, with a new podcast series launching soon.",
+      href: "https://www.linkedin.com/pulse/eper-insights-january-2026-epertech-z5s4f",
+    },
+    {
       title: "Eper Insights - December 2025",
       date: "",
       excerpt:
-        "Moving into a new office...",
+        "Relocated to a larger office space organized across two floors: one for production and hardware work, the other for meetings and coding. The move followed a systematic approach through planning, procurement, setup, and final touches, with the new layout designed to align with operational workflow.",
       href: "https://www.linkedin.com/pulse/eper-insights-december-2025-epertech-ud78f/?trackingId=qb4qsvN3Q2io8E6FcrCFIA%3D%3D",
     },
     {
       title: "Eper Insights - November 2025",
       date: "",
       excerpt:
-        "Highlights include new UAV system tests, modular airframe redesign work, fire-retardant deployment progress, and the research roadmap guiding next-quarter initiatives. Dive deeper to see how these threads shape our upcoming releases.",
+        "Over 300 signups for Intro to UAV courses with advanced offerings planned. Successfully completed fire-retardant deployment mechanism testing and preparing a report on thermal camera drone technology for early wildfire detection. Initiated a significant redesign of the MEDUSA UAV platform to enhance modularity and reduce setup times.",
       href: "https://www.linkedin.com/pulse/eper-insights-november-2025-epertech-69xbf/?trackingId=ePKcRRkjSHKCS35ZlU%2BXNg%3D%3D",
     },
     {
       title: "Eper Insights - October 2025",
       date: "",
       excerpt:
-        "In our first Eper Insights newsletter we recap 250+ signups for the new drone course, lessons from a parasite drone test flight, progress on fire retardant payload trials, mothership development, and early wildfire detection concepts.",
+        "Inaugural newsletter highlights four major developments: drone education course attracted over 100 participants in two days, parasite drone prototype underwent testing to refine design and safety features, fire retardant deployment systems validated for wildfire suppression, and parallel work continues on the mothership platform and early fire detection thermal imaging concept.",
       href: "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D",
     },
   ]
@@ -316,7 +336,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="publications" ref={(el) => (sectionsRef.current[4] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+        {/* <section id="publications" ref={(el) => (sectionsRef.current[4] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -356,7 +376,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         <section id="blog" ref={(el) => (sectionsRef.current[5] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
@@ -444,21 +464,36 @@ export default function Home() {
               <div className="text-sm text-muted-foreground font-mono">CAREERS</div>
               <h2 className="text-3xl sm:text-4xl font-light">Build the future of autonomous air operations with us</h2>
               <p className="text-muted-foreground leading-relaxed">
-                We hire mission-driven engineers, operators, and product leaders who thrive on translating complex requirements into fieldable capability. If you are ready to accelerate autonomy for critical sectors, we want to hear from you.
+                We hire mission-driven engineers, operators, and product leaders who thrive on translating complex requirements into fieldable capability. If you are ready to accelerate autonomy for critical sectors, we want to hear from you. You can email kariyer@eperteknoloji.com for open positions
               </p>
             </div>
-            <Link
-              href="https://www.linkedin.com/company/epertech/jobs"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-3 rounded-full border border-border px-6 py-3 text-sm font-medium text-foreground hover:border-muted-foreground/60 hover:text-muted-foreground transition-colors duration-300"
-            >
-              See open positions
-              <svg className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth={1.5} strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
-                <path d="M17 8l4 4-4 4" />
-                <path d="M3 12h18" />
-              </svg>
-            </Link>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10">
+              {positions.map((position) => (
+                <Link
+                  key={position.title}
+                  href={`mailto:kariyer@eperteknoloji.com?subject=Application: ${position.title}`}
+                  className="group border border-border rounded-lg p-6 sm:p-8 transition-all duration-500 hover:border-muted-foreground/60 hover:-translate-y-1"
+                >
+                  <div className="text-xs text-muted-foreground font-mono uppercase tracking-wide">{position.type}</div>
+                  <h3 className="mt-4 text-2xl font-light text-foreground group-hover:text-muted-foreground transition-colors duration-300">
+                    {position.title}
+                  </h3>
+                  <p className="mt-3 text-sm text-muted-foreground leading-relaxed">{position.description}</p>
+                  <div className="mt-6 inline-flex items-center gap-3 text-sm text-foreground group-hover:text-muted-foreground transition-colors duration-300">
+                    <span>Apply now</span>
+                    <svg
+                      className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-300"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                  </div>
+                </Link>
+              ))}
+            </div>
           </div>
         </section>
 
