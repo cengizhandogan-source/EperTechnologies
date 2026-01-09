@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "title": "Eper Technologies",
+    "description": "Havacılık ve uzay alanında dayanıklı otonom sistemler geliştiren kontrol sistemleri araştırmacısı ve havacılık mühendisi."
+  },
+  "common": {
+    "nav": {
+      "mission": "MİSYON",
+      "technologies": "TEKNOLOJİLER",
+      "courses": "EĞİTİMLER",
+      "publications": "YAYINLAR",
+      "blog": "BLOG",
+      "team": "EKİP",
+      "careers": "KARİYER",
+      "partners": "ORTAKLAR",
+      "contact": "İLETİŞİM"
+    },
+    "footer": {
+      "copyright": "© 2025 Eper Technologies Inc. Tüm hakları saklıdır.",
+      "address": "Maltepe, Çırpıcı Yolu A Sk. No:1, 34010 Zeytinburnu/İstanbul Ofis: 604",
+      "privacy": "Gizlilik",
+      "contactLink": "İletişim",
+      "brandGuidelines": "Marka Rehberi"
+    },
+    "actions": {
+      "viewDetails": "Detayları görüntüle",
+      "readArticle": "Makaleyi oku",
+      "exploreCourse": "Eğitimi keşfet",
+      "backToHome": "Ana sayfaya dön",
+      "subscribeLinkedIn": "LinkedIn'de abone ol"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Eper Technologies",
+      "subtitle": "Otonom hava operasyonlarında yeni bir çağ Eper Technologies ile başlıyor.",
+      "focusAreas": "ODAK ALANLAR",
+      "sectors": {
+        "disaster": "Afet Yönetimi",
+        "industrial": "Endüstriyel",
+        "defense": "Savunma",
+        "agriculture": "Tarım"
+      },
+      "connect": "İLETİŞİM",
+      "email": "info@eperteknoloji.com"
+    },
+    "mission": {
+      "label": "MİSYON",
+      "title": "Dünyanın havacılık algısını yeniden tanımlıyoruz",
+      "description": "Yerli mühendislik gücümüzle, savunma, tarım ve endüstri gibi stratejik alanlarda otonom İHA çözümleri geliştiriyoruz. Amacımız, hızlı yanıt veren, yapay zeka destekli ve modüler sistemlerle güvenliği artırmak, verimliliği yükseltmek ve kritik operasyonlarda fark yaratmak. Sadece bir teknoloji üreticisi değil, geleceğin otonom sistem mimarisini şekillendiren bir ortak olmayı hedefliyoruz."
+    },
+    "technologies": {
+      "label": "TEKNOLOJİLER",
+      "title": "Yenilikçi çözümler sunuyoruz. Geleceği şekillendiriyoruz.",
+      "description": "Otonom sistem yığınımız, MEDUSA ana gemileri, OSKİ sınıfı platformlar ve yapılandırılabilir parazit İHA'ları bir araya getirerek yükler, rehberlik modları ve yazılımın dakikalar içinde herhangi bir görev için yeniden yapılandırılmasını sağlar. Katmanlı yapay zeka kontrolü, dayanıklı iletişim ve göreve özel sensör modülleri, aynı sistem ailesinin yeni hava araçları yerleştirmeden savunma, endüstriyel ve afet müdahale profillerini kapsamasını sağlar.",
+      "programs": [
+        {
+          "title": "MEDUSA",
+          "description": "Çekişmeli ortamlar için düşük gecikmeli ağ iletişimi ile ana gemi ve parazit İHA'ları senkronize eden modüler sürü mimarisi."
+        },
+        {
+          "title": "OSKİ",
+          "description": "Modüler orta boy İHA. MEDUSA ile tasarım benzerlikleri taşır ancak parazit İHA'lar olmadan ve artırılmış kontrol otoritesiyle gelir. Orta menzilli görevler için en uygun."
+        }
+      ]
+    },
+    "courses": {
+      "label": "EĞİTİMLER",
+      "title": "Eper müfredatıyla becerilerinizi geliştirin",
+      "description": "Operatörler, mühendisler ve görev planlayıcılar düşünülerek tasarlanmış yapılandırılmış öğrenme yolları. Otonom filoları görev için hazır tutan araçlar, testler ve entegrasyon uygulamalarını öğretiyoruz.",
+      "list": [
+        {
+          "title": "İnsansız Hava Araçlarına Giriş",
+          "format": "Çevrimiçi · 1 saat",
+          "summary": "Otonom havacılığa giren multidisipliner ekipler için uyarlanmış sistem düşüncesi, uçuş dinamikleri ve kontrol temelleri.",
+          "href": "https://www.linkedin.com/events/7379602943949365249"
+        }
+      ]
+    },
+    "publications": {
+      "label": "YAYINLAR",
+      "title": "Sahadan araştırmalar ve makaleler",
+      "description": "Görev baskısı altında güvenilir otonominin nasıl mühendislendiğini belgeleyen teknik brifler, teknik raporlar ve çalışmalar.",
+      "readPublication": "Yayını oku"
+    },
+    "blog": {
+      "label": "BLOG",
+      "title": "Eper Insights",
+      "description": "Havacılık yeniliğinin bir sonraki dalgasını şekillendiren saha hikayeleri, mühendislik derinlemesine analizleri ve otonom araştırmaları.",
+      "posts": [
+        {
+          "title": "Eper Insights - Ocak 2026",
+          "date": "",
+          "excerpt": "Yeni ofisimize yerleşirken MEDUSA'nın ilk prototip üretimini hava aracı entegrasyonu, yer istasyonu geliştirmesi ve otonom yazılım boyunca ilerletiyoruz. YouTube serimiz 400.000 görüntülemeyi aştı, yakında yeni bir podcast serisi başlatılacak.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-january-2026-epertech-z5s4f"
+        },
+        {
+          "title": "Eper Insights - Aralık 2025",
+          "date": "",
+          "excerpt": "İki kata yayılmış daha büyük bir ofis alanına taşındık: biri üretim ve donanım işleri, diğeri toplantı ve kodlama için. Taşınma, planlama, tedarik, kurulum ve son rötuşlar aracılığıyla sistematik bir yaklaşım izledi ve yeni düzen operasyonel iş akışıyla uyumlu olacak şekilde tasarlandı.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-december-2025-epertech-ud78f/?trackingId=qb4qsvN3Q2io8E6FcrCFIA%3D%3D"
+        },
+        {
+          "title": "Eper Insights - Kasım 2025",
+          "date": "",
+          "excerpt": "İHA'ya Giriş kursları için 300'ün üzerinde kayıt, ileri düzey teklifler planlanıyor. Yangın geciktirici dağıtım mekanizması testlerini başarıyla tamamladık ve erken orman yangını tespiti için termal kamera drone teknolojisi hakkında bir rapor hazırlıyoruz. Modülerliği artırmak ve kurulum sürelerini azaltmak için MEDUSA İHA platformunun önemli bir yeniden tasarımına başladık.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-november-2025-epertech-69xbf/?trackingId=ePKcRRkjSHKCS35ZlU%2BXNg%3D%3D"
+        },
+        {
+          "title": "Eper Insights - Ekim 2025",
+          "date": "",
+          "excerpt": "İlk bülten dört önemli gelişmeyi vurguluyor: drone eğitim kursu iki günde 100'ün üzerinde katılımcı çekti, parazit drone prototipi tasarım ve güvenlik özelliklerini iyileştirmek için teste tabi tutuldu, orman yangını bastırması için yangın geciktirici dağıtım sistemleri doğrulandı ve ana gemi platformu ve erken yangın tespit termal görüntüleme konsepti üzerinde paralel çalışma devam ediyor.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D"
+        }
+      ]
+    },
+    "team": {
+      "label": "EKİP",
+      "title": "Otonom ve görev başarısına dayalı liderlik",
+      "description": "Operasyonel ihtiyaçları konuşlandırılabilir otonomiye dönüştüren multidisipliner bir mühendis ve operatör grubu. Görevleri talebin önünde tutmak için havacılık titizliğini hızlı iterasyonla eşleştiriyoruz.",
+      "members": [
+        {
+          "name": "Cengizhan Doğan",
+          "role": "Kurucu Ortak",
+          "focus": "Otonom hava sistemleri için vizyon, strateji ve misyon odaklı ortaklıklara rehberlik eder."
+        },
+        {
+          "name": "Oğuzhan Erdoğan",
+          "role": "Kurucu Ortak ve Ürün Müdürü",
+          "focus": "Ürün stratejisini ve entegrasyonunu yöneterek operatör geri bildirimlerini hızlı mühendislik uygulamasıyla uyumlu hale getirir."
+        }
+      ]
+    },
+    "careers": {
+      "label": "KARİYER",
+      "title": "Otonom hava operasyonlarının geleceğini bizimle inşa edin",
+      "description": "Karmaşık gereksinimleri sahaya çıkarılabilir yeteneğe dönüştürmede başarılı olan misyon odaklı mühendisler, operatörler ve ürün liderleri arıyoruz.",
+      "viewAll": "Tüm açık pozisyonları görüntüle",
+      "orEmail": "veya sorularınız için kariyer@eperteknoloji.com adresine e-posta gönderin."
+    },
+    "partners": {
+      "label": "SEKTÖR ORTAKLIKLARI",
+      "title": "Ortaklar",
+      "description": "Daha yeni başlangıçtayız, ancak hedefimiz iddialı. Eper Technologies olarak, öncelikle güvenlik, savunma, tarım ve endüstri olmak üzere çeşitli sektörlerde yenilikçi ve vizyoner ortaklarla büyümek istiyoruz. Siz de otonom sistemlerin geleceğini birlikte şekillendirmek ve yüksek etkili bir teknolojide ortak olmak istiyorsanız, bu yolculuğu birlikte inşa edelim."
+    },
+    "contact": {
+      "label": "BİR KONUŞMA BAŞLATIN",
+      "title": "İletişim",
+      "description": "Etkinleştirmeniz gereken görevler hakkında bize bilgi verin. Mevcut operasyonlarınızla entegre olabilen ve hızlı bir şekilde konuşlandırılabilir otonom çözümler sunan özel ekipler kuruyoruz.",
+      "email": "info@eperteknoloji.com"
+    }
+  },
+  "careers": {
+    "title": "Kariyer",
+    "description": "Otonom hava operasyonlarının geleceğini bizimle inşa edin. Karmaşık gereksinimleri sahaya çıkarılabilir yeteneğe dönüştürmede başarılı olan misyon odaklı mühendisler, operatörler ve ürün liderleri arıyoruz. Kritik sektörler için otonomu hızlandırmaya hazırsanız, sizden haber almak isteriz.",
+    "openPositions": "Açık Pozisyonlar",
+    "noPositions": "Şu anda açık pozisyon bulunmamaktadır. Yakında tekrar kontrol edin veya gelecekteki fırsatlar hakkında bilgi almak için kariyer@eperteknoloji.com adresine e-posta gönderin.",
+    "backToHome": "Ana sayfaya dön",
+    "jobDetail": {
+      "requirements": "Gereksinimler",
+      "responsibilities": "Sorumluluklar",
+      "qualifications": "Tercih Edilen Nitelikler",
+      "applicationSubject": "İş Başvurusu",
+      "applyNow": "Başvur"
+    },
+    "jobs": [
+      {
+        "id": "business-development-intern",
+        "title": "İş Geliştirme Stajyeri",
+        "type": "Staj",
+        "location": "Ankara, Türkiye",
+        "workArrangement": "Hibrit",
+        "description": "Otonom sistemlerde stratejik ortaklıklar ve pazar geliştirme yoluyla büyümeyi sağlayın.",
+        "requirements": [
+          "İşletme, Mühendislik veya ilgili alanda lisans eğitimine devam ediyor veya yakın zamanda tamamladı",
+          "Savunma teknolojisi ve otonom sistemlere güçlü ilgi",
+          "İngilizce ve Türkçe dillerinde mükemmel iletişim ve sunum becerileri",
+          "Pazar trendlerini analiz etme ve iş fırsatlarını belirleme yeteneği",
+          "Güçlü organizasyon becerileri ile kendi kendini motive edebilme"
+        ],
+        "responsibilities": [
+          "Savunma, endüstriyel ve tarım sektörlerinde potansiyel stratejik ortakları belirleyin ve araştırın",
+          "İş teklifleri ve ortaklık sunumlarının hazırlanmasına destek olun",
+          "Pazar analizi ve rekabet ortamı araştırmasında yardımcı olun",
+          "Müşteri toplantılarına ve ortaklık görüşmelerine katılın",
+          "İş geliştirme stratejisi ve planlamasına katkıda bulunun",
+          "CRM sistemlerinin bakımına ve ortaklık hattının takibine yardımcı olun"
+        ],
+        "qualifications": [
+          "İş geliştirme veya satışta önceki staj deneyimi artı",
+          "Türk savunma veya havacılık endüstrisine aşinalık tercih edilir",
+          "Microsoft Office Paketi ve veri analiz araçlarında yeterlilik"
+        ]
+      },
+      {
+        "id": "software-engineering-intern",
+        "title": "Yazılım Mühendisliği Stajyeri",
+        "type": "Staj",
+        "location": "Ankara, Türkiye",
+        "workArrangement": "Hibrit",
+        "description": "Yeni nesil İHA platformları için otonom uçuş kontrol algoritmaları ve yazılımları geliştirin.",
+        "requirements": [
+          "Bilgisayar Bilimleri, Elektrik Mühendisliği, Havacılık Mühendisliği veya ilgili alanda lisans eğitimine devam ediyor veya yakın zamanda tamamladı",
+          "Python, C++ veya benzer dillerde güçlü programlama becerileri",
+          "Kontrol sistemleri, robotik veya otonom sistemler anlayışı",
+          "Yazılım geliştirme en iyi uygulamalarına ve sürüm kontrolüne (Git) aşinalık",
+          "Problem çözme zihniyeti ve hızlı tempolu bir ortamda çalışabilme yeteneği"
+        ],
+        "responsibilities": [
+          "MEDUSA ve OSKİ platformları için otonom uçuş kontrol yazılımının geliştirilmesine katkıda bulunun",
+          "Rehberlik, navigasyon ve kontrol algoritmalarını uygulayın ve test edin",
+          "Yer istasyonu yazılımı geliştirme ve görev planlama araçlarında yardımcı olun",
+          "Donanım-döngü-içinde testlere ve saha denemelerine katılın",
+          "Sistem entegrasyonu konusunda havacılık mühendisleriyle işbirliği yapın",
+          "Kod dokümante edin ve teknik dokümantasyona katkıda bulunun"
+        ],
+        "qualifications": [
+          "ROS, PX4, ArduPilot veya benzer robotik çerçevelerde deneyim artı",
+          "Bilgisayar görüşü, sensör füzyonu veya makine öğrenimi bilgisi tercih edilir",
+          "Dronlar, robotik veya gömülü sistemlerle önceki proje deneyimi"
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "Bu Gizlilik Politikası, Eper Technologies Inc.'in ürünlerimiz, hizmetlerimiz ve web sitemizle etkileşimde bulunduğunuzda kişisel bilgileri nasıl topladığını, kullandığını ve koruduğunu açıklar.",
+    "sections": {
+      "collection": {
+        "title": "Topladığımız Bilgiler",
+        "content": "Doğrudan bize sağladığınız bilgileri, ad, e-posta adresi ve kurslar için kaydolurken, bültenlere abone olurken veya ekibimizle iletişime geçerken eklediğiniz ayrıntıları topluyoruz. Ayrıca, dijital hizmetlerimize eriştiğinizde IP adresi, cihaz tanımlayıcıları ve analitik için kullanım verileri dahil olmak üzere sınırlı teknik bilgileri otomatik olarak topluyoruz."
+      },
+      "usage": {
+        "title": "Bilgileri Nasıl Kullanıyoruz",
+        "content": "Toplanan bilgileri hizmetlerimizi sunmak ve geliştirmek, güncellemeler ve teklifler hakkında sizinle iletişim kurmak, içeriği kişiselleştirmek, kullanım trendlerini analiz etmek ve sistemlerimizin güvenliğini sağlamak için kullanıyoruz. Onayınızla size pazarlama iletişimleri gönderebilir ve istediğiniz zaman devre dışı bırakma seçeneği sunabiliriz."
+      },
+      "sharing": {
+        "title": "Paylaşım ve Açıklama",
+        "content": "Kişisel verilerinizi satmıyoruz. Bilgileri yalnızca işimizi yürütmemize yardımcı olan güvenilir hizmet sağlayıcılarla ve yalnızca bu hizmetleri yerine getirmeleri için gerekli olduğu ölçüde paylaşırız. Ayrıca, yasaların gerektirmesi veya yasal haklarımızı korumak için bilgileri açıklayabiliriz."
+      },
+      "retention": {
+        "title": "Veri Saklama",
+        "content": "Kişisel bilgileri yalnızca bu politikada belirtilen amaçları yerine getirmek, yasal yükümlülüklerimizi yerine getirmek, anlaşmazlıkları çözmek ve anlaşmaları uygulamak için gerekli olduğu sürece saklıyoruz."
+      },
+      "choices": {
+        "title": "Seçenekleriniz",
+        "content": "info@eperteknoloji.com adresinden bizimle iletişime geçerek kişisel bilgilerinize erişim, düzeltme veya silme talebinde bulunabilirsiniz. Ayrıca, bu mesajlarda yer alan talimatları izleyerek pazarlama iletişimlerinden aboneliğinizi iptal edebilirsiniz."
+      },
+      "updates": {
+        "title": "Bu Politikanın Güncellemeleri",
+        "content": "Uygulamalarımızdaki veya geçerli düzenlemelerdeki değişiklikleri yansıtmak için bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Değişiklik yaptığımızda, yürürlük tarihini revize eder ve güncellenen politikayı bu sayfada kullanıma sunarız."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız varsa, lütfen info@eperteknoloji.com adresinden bizimle iletişime geçin."
+      }
+    },
+    "effectiveDate": "Yürürlük tarihi: 1 Ekim 2025",
+    "backToHome": "Ana sayfaya dön"
+  },
+  "notFound": {
+    "title": "Sayfa Bulunamadı",
+    "description": "Üzgünüz, aradığınız sayfayı bulamıyoruz."
+  }
+}

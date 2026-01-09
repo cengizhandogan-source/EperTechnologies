@@ -1,0 +1,265 @@
+{
+  "metadata": {
+    "title": "Eper Technologies",
+    "description": "Control systems researcher and aerospace engineer shaping resilient autonomous systems."
+  },
+  "common": {
+    "nav": {
+      "mission": "MISSION",
+      "technologies": "TECHNOLOGIES",
+      "courses": "COURSES",
+      "publications": "PUBLICATIONS",
+      "blog": "BLOG",
+      "team": "TEAM",
+      "careers": "CAREERS",
+      "partners": "PARTNERS",
+      "contact": "CONTACT"
+    },
+    "footer": {
+      "copyright": "© 2025 Eper Technologies Inc. All rights reserved.",
+      "address": "Maltepe, Çırpıcı Yolu A Sk. No:1, 34010 Zeytinburnu/İstanbul Ofis: 604",
+      "privacy": "Privacy",
+      "contactLink": "Contact",
+      "brandGuidelines": "Brand Guidelines"
+    },
+    "actions": {
+      "viewDetails": "View details",
+      "readArticle": "Read article",
+      "exploreCourse": "Explore course",
+      "backToHome": "Back to homepage",
+      "subscribeLinkedIn": "Subscribe on LinkedIn"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Eper Technologies",
+      "subtitle": "A new era in autonomous air operations begins with Eper Technologies.",
+      "focusAreas": "FOCUS AREAS",
+      "sectors": {
+        "disaster": "Disaster Management",
+        "industrial": "Industrial",
+        "defense": "Defense",
+        "agriculture": "Agriculture"
+      },
+      "connect": "CONNECT",
+      "email": "info@eperteknoloji.com"
+    },
+    "mission": {
+      "label": "MISSION",
+      "title": "We redefine the world's perception of aviation",
+      "description": "With our domestic engineering power, we develop autonomous UAV solutions for strategic areas such as defense, agriculture, and industry. Our goal is to enhance security, increase efficiency, and make a difference in critical operations with fast-response, AI-powered, and modular systems. We aim not only to be a technology producer but also a partner shaping the autonomous system architecture of the future."
+    },
+    "technologies": {
+      "label": "TECHNOLOGIES",
+      "title": "We deliver innovative solutions. We shape the future.",
+      "description": "Our autonomy stack combines MEDUSA motherships, OSKİ-class platforms, and configurable parasite drones so payloads, guidance modes, and software can be reconfigured for any mission in minutes. Layered AI control, resilient comms, and mission-specific sensor pods let the same family of systems cover defense, industrial, and disaster-response profiles without fielding new airframes.",
+      "programs": [
+        {
+          "title": "MEDUSA",
+          "description": "Modular swarm architecture that synchronizes mothership and parasite drones with low-latency mesh networking for contested environments."
+        },
+        {
+          "title": "OSKİ",
+          "description": "Modular medium sized UAV. Carries design similarities with MEDUSA but without the parasite UAVs and increased control authority. Most suitable for medium ranged missions."
+        }
+      ]
+    },
+    "courses": {
+      "label": "COURSES",
+      "title": "Upskill with the Eper curriculum",
+      "description": "Structured learning paths designed with operators, engineers, and mission planners in mind. We teach the tooling, testing, and integration practices that keep autonomous fleets mission-ready.",
+      "list": [
+        {
+          "title": "Introduction to Unmanned Aerial Vehicles",
+          "format": "Online · 1 hour",
+          "summary": "Systems thinking, flight dynamics, and control fundamentals tailored for multidisciplinary teams entering autonomous aviation.",
+          "href": "https://www.linkedin.com/events/7379602943949365249"
+        }
+      ]
+    },
+    "publications": {
+      "label": "PUBLICATIONS",
+      "title": "Research and papers from the field",
+      "description": "Technical briefings, whitepapers, and studies documenting how we engineer dependable autonomy under mission pressure.",
+      "readPublication": "Read publication"
+    },
+    "blog": {
+      "label": "BLOG",
+      "title": "Eper Insights",
+      "description": "Field stories, engineering deep dives, and autonomy research shaping the next wave of aerial innovation.",
+      "posts": [
+        {
+          "title": "Eper Insights - January 2026",
+          "date": "",
+          "excerpt": "Settling into our new office while advancing MEDUSA's first prototype manufacturing across airframe integration, ground station development, and autonomy software. Our YouTube series exceeded 400,000 views, with a new podcast series launching soon.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-january-2026-epertech-z5s4f"
+        },
+        {
+          "title": "Eper Insights - December 2025",
+          "date": "",
+          "excerpt": "Relocated to a larger office space organized across two floors: one for production and hardware work, the other for meetings and coding. The move followed a systematic approach through planning, procurement, setup, and final touches, with the new layout designed to align with operational workflow.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-december-2025-epertech-ud78f/?trackingId=qb4qsvN3Q2io8E6FcrCFIA%3D%3D"
+        },
+        {
+          "title": "Eper Insights - November 2025",
+          "date": "",
+          "excerpt": "Over 300 signups for Intro to UAV courses with advanced offerings planned. Successfully completed fire-retardant deployment mechanism testing and preparing a report on thermal camera drone technology for early wildfire detection. Initiated a significant redesign of the MEDUSA UAV platform to enhance modularity and reduce setup times.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-november-2025-epertech-69xbf/?trackingId=ePKcRRkjSHKCS35ZlU%2BXNg%3D%3D"
+        },
+        {
+          "title": "Eper Insights - October 2025",
+          "date": "",
+          "excerpt": "Inaugural newsletter highlights four major developments: drone education course attracted over 100 participants in two days, parasite drone prototype underwent testing to refine design and safety features, fire retardant deployment systems validated for wildfire suppression, and parallel work continues on the mothership platform and early fire detection thermal imaging concept.",
+          "href": "https://www.linkedin.com/pulse/eper-insights-october-2025-epertech-ihowf/?trackingId=5CZYwJskRwyiWt8ne26jDg%3D%3D"
+        }
+      ]
+    },
+    "team": {
+      "label": "TEAM",
+      "title": "Leadership rooted in autonomy and mission success",
+      "description": "A multidisciplinary group of engineers and operators translating operational needs into deployable autonomy. We pair aerospace rigor with rapid iteration to keep missions ahead of demand.",
+      "members": [
+        {
+          "name": "Cengizhan Doğan",
+          "role": "Co-Founder",
+          "focus": "Guides vision, strategy, and mission-driven partnerships for autonomous air systems."
+        },
+        {
+          "name": "Oğuzhan Erdoğan",
+          "role": "Co-Founder & Chief Product Officer",
+          "focus": "Leads product strategy and integration, aligning operator feedback with rapid engineering execution."
+        }
+      ]
+    },
+    "careers": {
+      "label": "CAREERS",
+      "title": "Build the future of autonomous air operations with us",
+      "description": "We hire mission-driven engineers, operators, and product leaders who thrive on translating complex requirements into fieldable capability.",
+      "viewAll": "View all open positions",
+      "orEmail": "or email kariyer@eperteknoloji.com to inquire."
+    },
+    "partners": {
+      "label": "SECTOR PARTNERSHIPS",
+      "title": "Partners",
+      "description": "We are just at the beginning, but our goal is ambitious. As Eper Technologies, we want to grow with innovative and visionary partners in diverse sectors—primarily security, defense, agriculture, and industry. If you also want to shape the future of autonomous systems together and become a partner in a high-impact technology, let's build this journey together."
+    },
+    "contact": {
+      "label": "START A CONVERSATION",
+      "title": "Contact",
+      "description": "Tell us about the missions you need to enable. We assemble dedicated teams that can integrate with your existing operations and deliver rapidly deployable autonomy.",
+      "email": "info@eperteknoloji.com"
+    }
+  },
+  "careers": {
+    "title": "Careers",
+    "description": "Build the future of autonomous air operations with us. We hire mission-driven engineers, operators, and product leaders who thrive on translating complex requirements into fieldable capability. If you are ready to accelerate autonomy for critical sectors, we want to hear from you.",
+    "openPositions": "Open Positions",
+    "noPositions": "No open positions at the moment. Check back soon or email us at kariyer@eperteknoloji.com to inquire about future opportunities.",
+    "backToHome": "Back to homepage",
+    "jobDetail": {
+      "requirements": "Requirements",
+      "responsibilities": "Responsibilities",
+      "qualifications": "Preferred Qualifications",
+      "applicationSubject": "Job Application",
+      "applyNow": "Apply Now"
+    },
+    "jobs": [
+      {
+        "id": "business-development-intern",
+        "title": "Business Development Intern",
+        "type": "Internship",
+        "location": "Ankara, Turkey",
+        "workArrangement": "Hybrid",
+        "description": "Drive growth through strategic partnerships and market development in autonomous systems.",
+        "requirements": [
+          "Currently pursuing or recently completed a degree in Business Administration, Engineering, or related field",
+          "Strong interest in defense technology and autonomous systems",
+          "Excellent communication and presentation skills in English and Turkish",
+          "Ability to analyze market trends and identify business opportunities",
+          "Self-motivated with strong organizational skills"
+        ],
+        "responsibilities": [
+          "Identify and research potential strategic partners in defense, industrial, and agricultural sectors",
+          "Support preparation of business proposals and partnership presentations",
+          "Assist in market analysis and competitive landscape research",
+          "Participate in client meetings and partnership discussions",
+          "Contribute to business development strategy and planning",
+          "Help maintain CRM systems and track partnership pipeline"
+        ],
+        "qualifications": [
+          "Previous internship experience in business development or sales is a plus",
+          "Familiarity with the Turkish defense or aerospace industry preferred",
+          "Proficiency in Microsoft Office Suite and data analysis tools"
+        ]
+      },
+      {
+        "id": "software-engineering-intern",
+        "title": "Software Engineering Intern",
+        "type": "Internship",
+        "location": "Ankara, Turkey",
+        "workArrangement": "Hybrid",
+        "description": "Develop autonomous flight control algorithms and software for next-generation UAV platforms.",
+        "requirements": [
+          "Currently pursuing or recently completed a degree in Computer Science, Electrical Engineering, Aerospace Engineering, or related field",
+          "Strong programming skills in Python, C++, or similar languages",
+          "Understanding of control systems, robotics, or autonomous systems",
+          "Familiarity with software development best practices and version control (Git)",
+          "Problem-solving mindset and ability to work in a fast-paced environment"
+        ],
+        "responsibilities": [
+          "Contribute to development of autonomous flight control software for MEDUSA and OSKİ platforms",
+          "Implement and test guidance, navigation, and control algorithms",
+          "Assist with ground station software development and mission planning tools",
+          "Participate in hardware-in-the-loop testing and field trials",
+          "Collaborate with aerospace engineers on system integration",
+          "Document code and contribute to technical documentation"
+        ],
+        "qualifications": [
+          "Experience with ROS, PX4, ArduPilot, or similar robotics frameworks is a plus",
+          "Knowledge of computer vision, sensor fusion, or machine learning preferred",
+          "Previous project experience with drones, robotics, or embedded systems"
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy explains how Eper Technologies Inc. collects, uses, and protects personal information when you interact with our products, services, and website.",
+    "sections": {
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We collect the information you provide directly to us, such as your name, email address, and any details you include when registering for courses, subscribing to newsletters, or contacting our team. We also collect limited technical information automatically when you access our digital services, including IP address, device identifiers, and usage data for analytics."
+      },
+      "usage": {
+        "title": "How We Use Information",
+        "content": "We use collected information to deliver and improve our services, communicate with you about updates and offerings, personalize content, analyze usage trends, and maintain the security of our systems. We may send you marketing communications with your consent and provide you the option to opt out at any time."
+      },
+      "sharing": {
+        "title": "Sharing and Disclosure",
+        "content": "We do not sell your personal data. We share information only with trusted service providers who assist us in operating our business, and only to the extent necessary for them to perform those services. We may also disclose information if required by law or to protect our legal rights."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "content": "We retain personal information only for as long as necessary to fulfill the purposes outlined in this policy, comply with our legal obligations, resolve disputes, and enforce agreements."
+      },
+      "choices": {
+        "title": "Your Choices",
+        "content": "You may request access to, correction of, or deletion of your personal information by contacting us at info@eperteknoloji.com. You can also unsubscribe from marketing communications by following the instructions included in those messages."
+      },
+      "updates": {
+        "title": "Updates to This Policy",
+        "content": "We may update this Privacy Policy from time to time to reflect changes in our practices or applicable regulations. When we make changes, we will revise the effective date and make the updated policy available on this page."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions about this Privacy Policy or our data practices, please contact us at info@eperteknoloji.com."
+      }
+    },
+    "effectiveDate": "Effective date: October 1, 2025",
+    "backToHome": "Back to homepage"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, we can't find the page you're looking for."
+  }
+}

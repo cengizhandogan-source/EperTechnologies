@@ -1,21 +1,9 @@
 import type React from "react"
-import type { Metadata } from "next"
-import { Exo_2 } from "next/font/google"
+import {locales} from '@/lib/i18n/config';
 import "./globals.css"
 
-const exo2 = Exo_2({
-  subsets: ["latin"],
-  display: "swap",
-  variable: "--font-exo2",
-})
-
-export const metadata: Metadata = {
-  title: "Eper Technologies",
-  description: "Control systems researcher and aerospace engineer shaping resilient autonomous systems.",
-  generator: "v0.app",
-  icons: {
-    icon: "/tablogo.png",
-  },
+export function generateStaticParams() {
+  return locales.map((locale) => ({locale}));
 }
 
 export default function RootLayout({
@@ -23,9 +11,5 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode
 }>) {
-  return (
-    <html lang="en" className={`${exo2.variable}`}>
-      <body className="font-sans antialiased">{children}</body>
-    </html>
-  )
+  return children;
 }
