@@ -7,6 +7,7 @@
     "nav": {
       "mission": "MİSYON",
       "technologies": "TEKNOLOJİLER",
+      "consulting": "HİZMETLER",
       "courses": "EĞİTİMLER",
       "publications": "YAYINLAR",
       "blog": "BLOG",
@@ -20,6 +21,7 @@
       "address": "Maltepe, Çırpıcı Yolu A Sk. No:1, 34010 Zeytinburnu/İstanbul Ofis: 604",
       "privacy": "Gizlilik",
       "contactLink": "İletişim",
+      "workplacePolicy": "Çalışma Politikası",
       "brandGuidelines": "Marka Rehberi"
     },
     "actions": {
@@ -63,6 +65,26 @@
           "description": "Modüler orta boy İHA. MEDUSA ile tasarım benzerlikleri taşır ancak parazit İHA'lar olmadan ve artırılmış kontrol otoritesiyle gelir. Orta menzilli görevler için en uygun."
         }
       ]
+    },
+    "consulting": {
+      "label": "DANIŞMANLIK",
+      "title": "Organizasyonunuz için uzman danışmanlık ve proje yönetimi",
+      "description": "Eper Technologies, havacılık, savunma ve eğitim sektörlerindeki organizasyonlara özel danışmanlık ve proje yönetimi hizmetleri sunmaktadır. Ekibimiz, sistem mimarisi, otonom yazılım geliştirme ve yarışma programı yönetiminde derin uzmanlık sunmaktadır.",
+      "services": [
+        {
+          "title": "Sistem Mimarisi Danışmanlığı",
+          "description": "Havacılık ve savunma organizasyonları için sistem mimarisi tasarımında uzman rehberlik. Güçlü, ölçeklenebilir ve kritik görevler için otonom sistemler inşa etmenize yardımcı oluyoruz."
+        },
+        {
+          "title": "Otonom Yazılım Geliştirme",
+          "description": "Otonom sistemler için danışmanlık ve geliştirme desteği. Algoritma tasarımından entegrasyona kadar, kanıtlanmış uzmanlığımızla otonom projelerinizi hızlandırıyoruz."
+        },
+        {
+          "title": "Teknofest Proje Yönetimi",
+          "description": "Teknofest yarışmalarına katılan eğitim kurumları için kapsamlı proje yönetimi hizmetleri. Ekipleri konsepten yarışma başarısına kadar yönlendiriyoruz."
+        }
+      ],
+      "cta": "Danışmanlık Hizmetleri İçin İletişim"
     },
     "courses": {
       "label": "EĞİTİMLER",
@@ -261,5 +283,11 @@
   "notFound": {
     "title": "Sayfa Bulunamadı",
     "description": "Üzgünüz, aradığınız sayfayı bulamıyoruz."
+  },
+  "workplacePolicy": {
+    "title": "Çalışma Politikası",
+    "subtitle": "Eper Technologies'de Yerinde Çalışma Politikası",
+    "content": "Eper Technology'de yerinde çalışma, tüm teknik personelin görevlerini şirket tesislerinde fiziksel olarak yerine getirmesi anlamına gelir. Uzaktan veya hibrit düzenlemeler standart değildir. Politika, verimli işbirliğini ve daha hızlı donanım yinelemesini amaçlar.",
+    "backToHome": "Ana sayfaya dön"
   }
 }

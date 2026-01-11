@@ -7,6 +7,7 @@
     "nav": {
       "mission": "MISSION",
       "technologies": "TECHNOLOGIES",
+      "consulting": "SERVICES",
       "courses": "COURSES",
       "publications": "PUBLICATIONS",
       "blog": "BLOG",
@@ -20,6 +21,7 @@
       "address": "Maltepe, Çırpıcı Yolu A Sk. No:1, 34010 Zeytinburnu/İstanbul Ofis: 604",
       "privacy": "Privacy",
       "contactLink": "Contact",
+      "workplacePolicy": "Workplace Policy",
       "brandGuidelines": "Brand Guidelines"
     },
     "actions": {
@@ -63,6 +65,26 @@
           "description": "Modular medium sized UAV. Carries design similarities with MEDUSA but without the parasite UAVs and increased control authority. Most suitable for medium ranged missions."
         }
       ]
+    },
+    "consulting": {
+      "label": "CONSULTING",
+      "title": "Expert consulting and project management for your organization",
+      "description": "Eper Technologies provides specialized consulting and project management services to organizations across aerospace, defense, and education sectors. Our team brings deep expertise in system architecture, autonomy software development, and competition program management.",
+      "services": [
+        {
+          "title": "System Architecture Consulting",
+          "description": "Expert guidance on system architecture design for aerospace and defense organizations. We help you build robust, scalable, and mission-critical autonomous systems."
+        },
+        {
+          "title": "Autonomy Software Development",
+          "description": "Consulting and development support for autonomous systems. From algorithm design to integration, we accelerate your autonomy projects with proven expertise."
+        },
+        {
+          "title": "Teknofest Project Management",
+          "description": "Comprehensive project management services for educational institutions participating in Teknofest competitions. We guide teams from concept to competition success."
+        }
+      ],
+      "cta": "Contact for Consulting Services"
     },
     "courses": {
       "label": "COURSES",
@@ -261,5 +283,11 @@
   "notFound": {
     "title": "Page Not Found",
     "description": "Sorry, we can't find the page you're looking for."
+  },
+  "workplacePolicy": {
+    "title": "Workplace Policy",
+    "subtitle": "On-Site Work Policy at Eper Technologies",
+    "content": "On-site work at Eper Technology means all technical staff must perform their duties physically at company facilities. Remote or hybrid arrangements are not standard. The policy aims for efficient collaboration and faster hardware iteration.",
+    "backToHome": "Back to homepage"
   }
 }

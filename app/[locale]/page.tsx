@@ -16,8 +16,8 @@ export default function Home() {
     "hero",
     "mission",
     "technologies",
+    "consulting",
     "courses",
-    "publications",
     "blog",
     "team",
     "careers",
@@ -28,6 +28,7 @@ export default function Home() {
   const sectors = Object.values(t.raw('home.hero.sectors'))
   const teamMembers = t.raw('home.team.members')
   const technologyPrograms = t.raw('home.technologies.programs')
+  const consultingServices = t.raw('home.consulting.services')
   const blogPosts = t.raw('home.blog.posts')
   const courses = t.raw('home.courses.list')
 
@@ -192,7 +193,41 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="courses" ref={(el) => (sectionsRef.current[3] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+
+        <section id="consulting" ref={(el) => (sectionsRef.current[3] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+          <div className="space-y-12 sm:space-y-16">
+            <div className="space-y-6 max-w-3xl">
+              <div className="h-px w-12 bg-border" aria-hidden="true"></div>
+              <div className="text-sm text-muted-foreground font-mono">{t('home.consulting.label')}</div>
+              <h2 className="text-3xl sm:text-4xl font-light">{t('home.consulting.title')}</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                {t('home.consulting.description')}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
+              {consultingServices.map((service) => (
+                <article
+                  key={service.title}
+                  className="border border-border rounded-xl p-6 sm:p-8 transition-all duration-500 hover:border-muted-foreground/60 hover:-translate-y-1"
+                >
+                  <h3 className="text-2xl font-light text-foreground">{service.title}</h3>
+                  <p className="mt-4 text-sm text-muted-foreground leading-relaxed">{service.description}</p>
+                </article>
+              ))}
+            </div>
+
+            <div className="flex justify-start">
+              <a
+                href="mailto:info@eperteknoloji.com"
+                className="inline-flex items-center px-6 py-3 border border-border rounded-lg text-sm font-medium text-foreground transition-all duration-300 hover:border-muted-foreground hover:bg-muted/50"
+              >
+                {t('home.consulting.cta')}
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id="courses" ref={(el) => (sectionsRef.current[4] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -275,7 +310,7 @@ export default function Home() {
           </div>
         </section> */}
 
-        <section id="blog" ref={(el) => (sectionsRef.current[5] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+        <section id="blog" ref={(el) => (sectionsRef.current[6] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -329,7 +364,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="team" ref={(el) => (sectionsRef.current[6] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
+        <section id="team" ref={(el) => (sectionsRef.current[7] = el)} className="min-h-screen py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -354,7 +389,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="careers" ref={(el) => (sectionsRef.current[7] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="careers" ref={(el) => (sectionsRef.current[8] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="space-y-12 sm:space-y-16">
             <div className="space-y-6 max-w-3xl">
               <div className="h-px w-12 bg-border" aria-hidden="true"></div>
@@ -398,7 +433,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="partners" ref={(el) => (sectionsRef.current[8] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="partners" ref={(el) => (sectionsRef.current[9] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="space-y-6 sm:space-y-8 max-w-3xl">
             <div className="h-px w-12 bg-border" aria-hidden="true"></div>
             <div className="text-sm text-muted-foreground font-mono">{t('home.partners.label')}</div>
@@ -409,7 +444,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="contact" ref={(el) => (sectionsRef.current[9] = el)} className="py-20 sm:py-32 opacity-0">
+        <section id="contact" ref={(el) => (sectionsRef.current[10] = el)} className="py-20 sm:py-32 opacity-0">
           <div className="space-y-6 sm:space-y-8">
             <div className="h-px w-12 bg-border" aria-hidden="true"></div>
             <div className="text-sm text-muted-foreground font-mono uppercase tracking-wide">{t('home.contact.label')}</div>
@@ -516,11 +551,63 @@ export default function Home() {
               </div>
 
               <div className="flex flex-wrap items-center gap-4 text-sm text-muted-foreground">
+                <button
+                  onClick={() => document.getElementById('mission')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.mission')}
+                </button>
+                <button
+                  onClick={() => document.getElementById('technologies')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.technologies')}
+                </button>
+                <button
+                  onClick={() => document.getElementById('courses')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.courses')}
+                </button>
+                <button
+                  onClick={() => document.getElementById('blog')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.blog')}
+                </button>
+                <button
+                  onClick={() => document.getElementById('team')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.team')}
+                </button>
+                <Link href="/careers" className="hover:text-foreground transition-colors duration-300">
+                  {t('common.nav.careers')}
+                </Link>
+                <button
+                  onClick={() => document.getElementById('partners')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.partners')}
+                </button>
+                <button
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: "smooth" })}
+                  className="hover:text-foreground transition-colors duration-300"
+                  type="button"
+                >
+                  {t('common.nav.contact')}
+                </button>
                 <Link href="/privacy" className="hover:text-foreground transition-colors duration-300">
                   {t('common.footer.privacy')}
                 </Link>
-                <Link href="mailto:info@eperteknoloji.com" className="hover:text-foreground transition-colors duration-300">
-                  {t('common.footer.contactLink')}
+                <Link href="/workplace-policy" className="hover:text-foreground transition-colors duration-300">
+                  {t('common.footer.workplacePolicy')}
                 </Link>
                 <Link
                   href="/Eper%20Teknoloji_Kurumsal_Kimlik.pdf"
